@@ -24,11 +24,12 @@ windows前端开发环境的docker镜像
 
   ```
 
+  # [你的本地共享文件夹，存放项目的目录]:[docker上的目录]
   volumes:
-    # [你的本地共享文件夹，存放项目的目录]:[docker上的目录]
     - ~/projects:/projects
+
   # 添加或修改端口映射， [你的端口]:[docker的端口]
-   ports:
+  ports:
     - "8000:8000"
     - "8080:8080"
     - "3000:3000"
@@ -39,7 +40,7 @@ windows前端开发环境的docker镜像
 - 启动docker容器
   
   ```ruby
-  
+
   $ docker-compose up -d
 
   ```
