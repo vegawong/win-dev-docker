@@ -1,0 +1,11 @@
+win-dev:
+  image: registry.cn-hangzhou.aliyuncs.com/vega/win-dev:latest
+  volumes:
+    - ~/projects:/projects
+  ports:
+    - "8000:8000"
+    - "8080:8080"
+    - "3000:3000"
+    - "3123:3123"
+  tty: true
+  container_name: 'win-dev'
