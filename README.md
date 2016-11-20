@@ -18,7 +18,7 @@ windows前端开发环境的docker镜像
 
 - 修改`docker-compose.yml`以下节点(可选)
 
-  ```docker
+  ```
   volumes:
     # [你的本地共享文件夹，存放项目的目录]:[docker上的目录]
     - ~/projects:/projects
