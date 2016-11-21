@@ -12,4 +12,4 @@ RUN yarn config set registry https://registry.npm.taobao.org
 
 
 # 安装全局包
-RUN yarn global add pm2 webpack webpack-dev-server supervisor babel eslint coffee-script gulp
+RUN yarn global add pm2 webpack webpack-dev-server supervisor babel eslint coffee-script gulp nodemon

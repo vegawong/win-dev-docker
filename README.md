@@ -6,7 +6,7 @@ windows前端开发环境的docker镜像 (mac 可用)
 
 集成`nodejs@6.5.0`, `npm@3.10.x`, `yarn@0.17.6`
 
-集成`pm2 webpack webpack-dev-server supervisor babel eslint coffeescript gulp`
+集成`pm2 webpack webpack-dev-server supervisor babel eslint coffee-script gulp nodemon`
 
 ## usage
 
